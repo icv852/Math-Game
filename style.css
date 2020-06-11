@@ -1,0 +1,173 @@
+body{
+    font-family: sans-serif;
+}
+
+button{
+    background-color: white;
+    cursor: pointer;
+}
+
+#maincontainer{
+    border: solid 1px black;
+    width: 950px;
+    height: 600px;
+    margin: 50px auto;
+}
+
+#topcontainer{
+    border: solid 1px black hidden;
+    width: 950px;
+    height: 60px;
+}
+
+#midcontainer{
+    border: solid 1px black hidden;
+    width: 650px;
+    height: 475px;
+    margin: 0 auto;
+}
+
+#botcontainer{
+    border: solid 1px black hidden;
+    width: 950px;
+    height: 60px;
+}
+
+#scorebox{
+    border: solid 1px hidden;
+    width: 170px;
+    height: 40px;
+    margin: 10px;
+    float:right;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+#correct{
+    border: solid 1px green;
+    top: 7px;
+    width: 90px;
+    height: 45px;
+    font-size: 23px;
+    text-align: center;
+    background: green;
+    color: white;
+    line-height: 45px;
+    float: left;
+    position: relative;
+    left: 450px;
+    visibility: hidden;
+}
+
+#wrong{
+    border: solid 1px red;
+    width: 90px;
+    height: 45px;
+    top: 7px;
+    font-size: 20px;
+    line-height: 45px;
+    background: red;
+    color: white;
+    float: left;
+    position: relative;
+    left: 200px;
+    visibility: hidden;
+}
+
+#question{
+    border: solid 1px hidden;
+    height: 280px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 280px;
+    visibility: hidden;
+}
+
+#explain{
+    border: solid 1px yellow hidden;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+#answergroup{
+    border: solid 1px green hidden;
+    height: 140px;
+}
+
+.answer{
+    border: solid 1px cornflowerblue;
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px 30px;
+    font-size: 30px;
+    background-color:azure;
+}
+
+.answer:hover{
+    background-color:cornflowerblue;
+    color: white;
+    border: white;
+}
+
+.answer:active{
+    background-color:cornflowerblue;
+    color: white;
+    border: white;
+    font-size: 35px;
+}
+
+#startbutton{
+    float:left;
+    margin-top: 9px;
+    margin-left: 429px;
+    border: 1px solid darkgreen;
+    height: 40px;
+    width: 110px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    background-color:chartreuse;
+}
+
+#startbutton:hover{
+    background-color: darkgreen;
+    color: white;
+    border: white;
+}
+
+#startbutton:active{
+    background-color: darkgreen;
+    color: white;
+    border: white;
+    font-size: 26px;
+}
+
+#timebox{
+    float:right;
+    font-size: 24px;
+    line-height: 60px;
+    margin: 0px 10px;
+    display: none;
+}
+
+#gameover{
+    border: red solid;
+    background: linear-gradient(red,palevioletred);
+    height: 100px;
+    width: 500px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 60px 0px;
+    position: relative;
+    top: -500px;
+    left: 225px;
+    z-index: 2;
+    visibility: hidden;
+}
+
